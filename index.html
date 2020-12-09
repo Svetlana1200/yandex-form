@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Прокачай кота</title>
+        <link rel="stylesheet" href="./index.css">
+    </head>
+    <body>
+          <form class="control-form">
+            <section class="control-form__part">
+              <section class="description control-form__item">
+                <span class="text">Кот</span>
+                <label>
+                  <input type="number" min=0 value=2 class="input-number control-form__input-number">
+                </label>
+                <span class="text">лет и</span>
+                <label>
+                  <input type="number" min=0 value=2 class="input-number control-form__input-number">
+                </label>
+                <span class="text">кг</span>
+              </section>
+
+              <section class="control-form__changing-mass control-form__item">
+                <label>
+                    <input id="more" name="radio" type="radio">
+                    <section class="indicator control-form__indicator">Набор массы</section>
+                </label>
+                
+                <label>
+                    <input id="less" name="radio" type="radio">
+                    <section class="indicator control-form__indicator">Похудение</section>
+                </label>
+                <label>
+                    <input id="unknow" name="radio" type="radio" checked>
+                    <section class="indicator control-form__indicator">Не знаю</section>
+                </label>
+              </section>
+
+              
+              <section class="writting-email control-form__item">
+                <label>
+                  <input type="email" placeholder="Email (Ваш)" class="input-email control-form__input-email">
+                </label>
+              </section>
+            
+              <section class="wanting-spam control-form__item">
+                <label>
+                  <input type="checkbox">
+                  <span class="text">Хочу спам</span>
+                </label>
+              </section>
+
+              <section class="subscription control-form__item">
+                <button type="submit" class="button control-form__button">Подписаться</button>
+              </section>
+            </section>
+            <img src="cats/1.jpg" alt="cat picture" width="100" class="image control-form__part">
+
+          </form>
+    </body>
+</html>

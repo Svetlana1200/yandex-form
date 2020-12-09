@@ -1,0 +1,93 @@
+.control-form {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.control-form__part {
+    display: inline-block;
+    margin-right: 20px;
+}
+.image {
+    width: 300px;
+    height: 250px;
+}
+
+input[type="radio"] ~ .indicator{
+    background-color: #ece8e5;
+    border: 1px solid #ccc;
+    font-size: 20px;
+}
+input[type="radio"] {
+    display: none;
+}
+input[type="radio"]:hover ~ .indicator {
+    background-color: #c1bfbe;
+    cursor: pointer;
+}
+input[type="radio"]:checked ~ .indicator{
+    background-color: #ffcdb3;
+}
+
+.radio {
+    font-size: 20px;
+}
+
+.control-form__item {
+    margin-top: 20px;   
+}
+
+.control-form__changing-mass{
+    display: flex;
+    justify-content: space-between;
+}
+
+.control-form__indicator{
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.subscription,
+.wanting-spam,
+.writting-email,
+.description {
+    font-size: 20px;
+}
+
+.input-email{
+    background-color:#ece8e5;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 2px #e5e5e5 inset;
+    font-style:italic;
+    border: 1px solid #ccc;
+}
+
+.control-form__input-email,
+.control-form__button {
+    padding:9px 10px;
+    width: 368px;
+}
+
+.button {
+    background-color:#f5c630;
+    border: 1px solid #f5c630;
+    border-radius: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.input-number {
+    background-color:#ece8e5;
+    font-size: 20px;
+    border: 1px solid #ccc;
+}
+.control-form__input-number {
+    width: 125px;
+}
+
+.text{
+    font-family: Verdana, Geneva, sans-serif;
+}
+
